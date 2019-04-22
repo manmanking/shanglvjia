@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SelectItemView" customModule="shop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="52"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_single_selection" translatesAutoresizingMaskIntoConstraints="NO" id="RCb-2d-G5d">
+                    <rect key="frame" x="346" y="16" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="FLE-Br-Coj"/>
+                        <constraint firstAttribute="width" secondItem="RCb-2d-G5d" secondAttribute="height" multiplier="1:1" id="pgc-Kr-wep"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="王新宇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKJ-Rt-hxs">
+                    <rect key="frame" x="25" y="16" width="49" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.20784313730000001" green="0.20784313730000001" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UOS-af-SZp">
+                    <rect key="frame" x="25" y="51.5" width="366" height="0.5"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="xvm-kB-DhQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UOS-af-SZp" secondAttribute="trailing" id="Cl0-bA-P2U"/>
+                <constraint firstItem="qKJ-Rt-hxs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="Jka-Xw-yrX"/>
+                <constraint firstItem="qKJ-Rt-hxs" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ldw-N5-Vgs"/>
+                <constraint firstItem="RCb-2d-G5d" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Y5d-l3-wMs"/>
+                <constraint firstItem="UOS-af-SZp" firstAttribute="leading" secondItem="qKJ-Rt-hxs" secondAttribute="leading" id="b1z-J8-px6"/>
+                <constraint firstAttribute="bottom" secondItem="UOS-af-SZp" secondAttribute="bottom" id="hx8-f7-CXN"/>
+                <constraint firstAttribute="trailing" secondItem="RCb-2d-G5d" secondAttribute="trailing" constant="25" id="kpq-2p-oYN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="nameLabel" destination="qKJ-Rt-hxs" id="M8h-Jp-oSb"/>
+                <outlet property="selectImage" destination="RCb-2d-G5d" id="Vku-fc-HHh"/>
+                <outletCollection property="gestureRecognizers" destination="dXX-gS-Nhb" appends="YES" id="agk-Gc-O9y"/>
+            </connections>
+            <point key="canvasLocation" x="41.5" y="-254"/>
+        </view>
+        <tapGestureRecognizer id="dXX-gS-Nhb">
+            <connections>
+                <action selector="itemClick:" destination="iN0-l3-epB" id="Rc5-De-8Af"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="ic_single_selection" width="20" height="20"/>
+    </resources>
+</document>

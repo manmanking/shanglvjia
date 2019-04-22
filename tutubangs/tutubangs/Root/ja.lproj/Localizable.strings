@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  tutubangs
+
+  Created by manman on 2018/10/10.
+  Copyright © 2018 manman. All rights reserved.
+*/
+"demo.title" = "日文";
+"demo.split" ="日文拼接开头 %@ 拼接结尾";
+"flight.travel.message" = "根据您的差旅政策,查询结果显示您期望时间上下%@小时内航班信息。";

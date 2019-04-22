@@ -1,0 +1,138 @@
+{
+  "code": 100,
+  "message": "成功",
+  "content": [
+    {
+      "uid": "1953349",
+      "name": "王倩",
+      "birthday": null,
+      "mobile": "13652057589",
+      "emails": [
+        "452018020@qq.com"
+      ],
+      "gender": "F",
+      "employeeNo": null,
+      "certificates": [
+        {
+          "name": "身份证",
+          "number": "120221199108010026",
+          "type": 1,
+          "expiryDate": 0
+        },
+        {
+          "name": "护照",
+          "number": "G112233",
+          "type": 2,
+          "expiryDate": 0
+        }
+      ],
+      "travelCards": [
+        {
+          "name": "阿萨德",
+          "number": "11111111",
+          "type": 2,
+          "category": null,
+          "supplier": null
+        },
+        {
+          "name": "阿萨德",
+          "number": "11111112",
+          "type": 2,
+          "category": null,
+          "supplier": null
+        }
+      ],
+      "lowestPriceInterval": 2,
+      "apvRuleId": "ff80808142d7acba0142e202a6410011",
+      "travelPolicyId": "8a861ca730bc59580131184484085cb0",
+      "costCenterId": "",
+      "costCenterName": "天津中国国际旅行社-测试部"
+    },
+    {
+      "uid": "5164269",
+      "name": "王珊",
+      "birthday": "1986-10-10",
+      "mobile": null,
+      "emails": [
+        "cherrywangshan@sina.com"
+      ],
+      "gender": "F",
+      "employeeNo": null,
+      "certificates": [
+        {
+          "name": "身份证",
+          "number": "210283198610100023",
+          "type": 1,
+          "expiryDate": 0
+        }
+      ],
+      "travelCards": null,
+      "lowestPriceInterval": 0,
+      "apvRuleId": "8a861ca7341e25990134d52913d06074",
+      "travelPolicyId": "8a861ca73ad9ffa6013f9d29d45234a6",
+      "costCenterId": "110",
+      "costCenterName": ""
+    },
+    {
+      "uid": "5660167",
+      "name": "王媛",
+      "birthday": null,
+      "mobile": "18822611800",
+      "emails": [
+        "rosa1201@163.com",
+        "452018020@qq.com"
+      ],
+      "gender": "F",
+      "employeeNo": null,
+      "certificates": [
+        {
+          "name": "身份证",
+          "number": "120221199108280026",
+          "type": 1,
+          "expiryDate": 0
+        }
+      ],
+      "travelCards": null,
+      "lowestPriceInterval": 2,
+      "apvRuleId": "ff80808142d7acba0142e202a6410011",
+      "travelPolicyId": "8a861ca730bc59580131184484085cb0",
+      "costCenterId": "16582",
+      "costCenterName": "天津中国国际旅行社-市场部"
+    },
+    {
+      "uid": "6349445",
+      "name": "王小媛",
+      "birthday": null,
+      "mobile": null,
+      "emails": null,
+      "gender": null,
+      "employeeNo": null,
+      "certificates": [
+        {
+          "name": "护照",
+          "number": "g20961897",
+          "type": 2,
+          "expiryDate": 0
+        },
+        {
+          "name": "身份证",
+          "number": "110000197609260652",
+          "type": 1,
+          "expiryDate": 0
+        },
+        {
+          "name": "护照",
+          "number": "g20961899",
+          "type": 2,
+          "expiryDate": 0
+        }
+      ],
+      "travelCards": null,
+      "lowestPriceInterval": 2,
+      "apvRuleId": "8a861ca730bc59580131184f61295ce7",
+      "travelPolicyId": "8a861ca730bc59580131184484085cb0",
+      "costCenterId": "110",
+      "costCenterName": ""
+    }
+  ]
+}

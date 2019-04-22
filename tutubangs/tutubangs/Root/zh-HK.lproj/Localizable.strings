@@ -1,0 +1,156 @@
+/* 
+  Localizable.strings
+  tutubangs
+
+  Created by manman on 2018/10/10.
+  Copyright © 2018 manman. All rights reserved.
+*/
+
+"demo.title" = "中文";
+"demo.split" ="中文拼接开头 @%@ 拼接结尾";
+
+/*
+ 首页字段
+ */
+"home.hotline.header.title" = "热门路线";
+"home.hotline.header.button" = "更多精彩";
+"home.lowerPrice.header.title" = "特价产品";
+/*
+ 机票字段
+ */
+"flight.header.title" = "机票查询";
+"flight.one.way" = "单程";
+"flight.round.trip" = "往返";
+"flight.travel.message" = "根据您的差旅政策,查询结果显示您期望时间上下%@小时内航班信息。";
+"flight.header.previous" = "前一天";
+"flight.header.next" = "后一天";
+"start.city" = "出发城市";
+"arrive.city" = "到达城市";
+"start.date" = "出发日期";
+"arrive.date" = "到达日期";
+"start.time" = "出发时间";
+"arrive.time" = "到达时间";
+"search.button" = "查询";
+"submit.pay.button" = "去付款";
+/*
+ 我的字段
+ */
+"mine.login" = "登录/注册";
+"mine.journey" = "我的行程";
+"mine.order" = "我的订单";
+"mine.wait.pay" = "待支付";
+"mine.company.binding.account" = "绑定企业账号";
+"mine.feedback" = "意见反馈";
+"mine.questions.comments.title" = "问题和意见";
+"mine.questions.comments.message" = "请您提出宝贵的意见和建议,您留下的每个字都将用来改善我们的程序和软件";
+"mine.contact.message" = "方便与您沟通联系";
+"mine.feedback.submit" = "提交反馈";
+"mine.feedback.success.title" = "反馈成功";
+"mine.feedback.success.message" = "客服会及时与您联系,谢谢反馈";
+"mine.feedback.success.home" = "返回首页";
+"mine.feedback.success.mine.home" = "个人中心";
+
+"mine.contact.title" = "联系方式";
+"mine.common.problems" = "常见问题";
+"mine.contact.customer" = "联系客服";
+"mine.scan" = "扫码下载";
+"mine.about" = "关于我们";
+"mine.setting" = "设置";
+"mine.logout.bottom" = "退出当前帐号";
+
+/*
+ 验证相关提示信息
+ */
+//通用验证提示信息 - 邮箱格式不正确
+"common.validate.email.message" = "邮箱格式不正确";
+//通用验证提示信息 - 手机格式不正确
+"common.validate.phone.message" = "手机格式不正确";
+//通用验证提示信息 - 用户名格式不正确
+"common.validate.username.message" = "用户名格式不正确";
+//通用验证提示信息 - 验证码位数不正确
+"common.validate.verification.message" = "验证码有误";
+//通用验证提示信息 - 信息不能为空
+"common.validate.isempty.message" = "%@信息不能为空";
+//通用验证提示信息 - 证件类型格式不对
+"common.validate.card.message" = "身份证信息格式不正确";
+//通用验证提示信息 - 输入姓名过长,请修改
+"common.validate.islength.message" = "输入%@过长,请修改";
+//通用验证提示信息 - 格式不正确
+"common.validate.format.message" = "%@格式不正确,请修改";
+
+"common.validate.hint" = "提示";
+"common.validate.fail" = "失败";
+"common.validate.cancel" = "取消";
+"common.validate.ok" = "确定";
+
+
+/**
+ *订单相关的页面
+ *
+ */
+"order.details.title" = "订单详情";
+
+"common.validate.order.isdelete" = "确定删除?";
+
+"order.details.orderno" = "出差单号";
+"order.details.create.user" = "创建用户";
+"order.details.create.time" = "创建时间";
+
+"order.details.business.traveller" = "出差旅客";
+"order.details.business.place" = "出差地点";
+"order.details.business.time" = "出差时间";
+
+"order.details.costcenter" = "成本中心";
+"order.details.business.purpose" = "出差目的";
+"order.details.business.resaon" = "出差事由";
+
+"order.details.choose.passager.hint" = "请至少选择1个旅客";
+
+
+"order.details.revokeapproval" = "撤回送审";
+"order.details.isrevokeapproval" = "撤回送审?";
+"order.details.approval" = "送审";
+"order.details.confirmcommit" = "确认提交";
+"order.details.isconfirmcommit" = "确认提交订单?";
+"order.details.iscancelapproval" = "是否取消?";
+"order.details.iscommitorder" = "提交订单?";
+
+"order.details.people" = "人";
+"order.details.adultflightticket" = "成人机票";
+"order.details.airportbuildcharge" = "机场建设";
+"order.details.totalprice" = "订单总价";
+"order.details.changeinduction" = "退改签说明";
+"order.details.payinduction" = "理赔说明";
+
+"order.details.depart" = "出发";
+"order.details.arrive" = "到达";
+
+"order.details.flight.topcabin" = "头等舱";
+"order.details.flight.businesscabin" = "公务舱";
+
+"order.details.hotel.checkin" = "入住";
+"order.details.hotel.leave" = "离店";
+
+"order.details.insurance.start" = "生效";
+"order.details.insurance.end" = "截止";
+
+"order.details.startjourney" = "出差";
+"order.details.backjourney" = "返程";
+
+
+/**
+ *审批订单
+ */
+
+"order.approval.title" = "待审批出差单";
+"order.approval.order.status" = "订单状态";
+"order.approval.order.passed" = "已成功通过审批";
+"order.approval.order.ispass" = "通过审批?";
+
+
+"order.opinion.approval.title" = "审批意见";
+"order.opinion.approval.writecontent.hint" = "请您填写审批意见";
+"order.opinion.approval.commit" = "提交";
+
+
+"order.opinion.approval.is.reject" = "审批拒绝?";
